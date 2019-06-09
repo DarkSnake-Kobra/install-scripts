@@ -22,6 +22,7 @@ elif ( $input =="0" ); then
 else
 	echo "Not a valid option."
 exit 0
+fi
 }
 
 function install_steam(){
