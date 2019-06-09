@@ -9,20 +9,19 @@ echo "4. Gnome (upstream look)";
 echo -n "Type a menu number and hit [ENTER]"
 read input
 
-if ($input == "1"); then
+if ( $input == "1" ); then
 	install_steam
-else if ($input =="2"); then
+else if ( $input =="2" ); then
 	install_discord
-else if ($input =="3"); then
+else if ( $input =="3" ); then
 	install_wine
-else if ($input =="4"); then
+else if ( $input =="4" ); then
 	install_vanilla_gnome
-else if ($input =="0"); then
+else if ( $input =="0" ); then
 	exit 0
 else
 	echo "Not a valid option."
 exit 0
-
 }
 
 function install_steam(){
