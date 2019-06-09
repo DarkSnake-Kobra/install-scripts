@@ -1,7 +1,7 @@
 # install-scripts
 
-#Intro
+# Intro
 Few scripts I made to help a friend setup Linux for gaming.
 
-#License
+# License
 BSD-3 Clause License
