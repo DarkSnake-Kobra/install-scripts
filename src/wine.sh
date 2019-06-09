@@ -3,7 +3,7 @@
 
 function install_wine(){
 echo "Retrieving winehq public key"
-wget -nc https://dl.winehq.org/wine-builds/winehq.key apt-key add winehq.key
+wget -nc https://dl.winehq.org/wine-builds/winehq.key sudo apt-key add winehq.key
 echo "Adding winehq disco repository"
 apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
 echo "Installing wine staging with recommended packages"
