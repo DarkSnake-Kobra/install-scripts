@@ -11,13 +11,13 @@ read input
 
 if ( $input == "1" ); then
 	install_steam
-else if ( $input =="2" ); then
+elif ( $input =="2" ); then
 	install_discord
-else if ( $input =="3" ); then
+elif ( $input =="3" ); then
 	install_wine
-else if ( $input =="4" ); then
+elif ( $input =="4" ); then
 	install_vanilla_gnome
-else if ( $input =="0" ); then
+elif ( $input =="0" ); then
 	exit 0
 else
 	echo "Not a valid option."
