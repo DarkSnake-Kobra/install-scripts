@@ -10,17 +10,17 @@ echo -n "Type a menu number and hit [ENTER]"
 read input
 
 if ($input == "1"); then
-install_steam ()
+	install_steam
 else if ($input =="2"); then
-install_discord()
+	install_discord
 else if ($input =="3"); then
-install_wine()
+	install_wine
 else if ($input =="4"); then
-install_vanilla_gnome()
+	install_vanilla_gnome
 else if ($input =="0"); then
-exit 0
+	exit 0
 else
-echo "Not a valid option."
+	echo "Not a valid option."
 exit 0
 
 }
